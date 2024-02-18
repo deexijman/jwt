@@ -1,0 +1,11 @@
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username" : "deexith"
+}
+
+###
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZGVleGl0aCIsImlhdCI6MTcwODE5Njc2MiwiZXhwIjoxNzA4MTk2ODgyfQ.4Iudq-fIl8e2RUsMD-k9jliIEWNtxwhitskxKRv87XE
